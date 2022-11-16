@@ -2,7 +2,7 @@
 
 
 // Base URL of the application
-define('BASE_URL','http://'. $_SERVER['HTTP_HOST'].'/');
+define('BASE_URL','https://'. $_SERVER['HTTPS_HOST'].'/');
 
 // Path of the download.php file
 define('DOWNLOAD_PATH', BASE_URL.'download.php');
