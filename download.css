@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i);
+a,a:link,a:visited {color:#333;text-decoration:none;transition:all .3s}
+a:hover,a:hover:visited {color:#1e7ce5}
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+body {
+  background:#74b9ff;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  line-height: normal;
+  height:100%;
+  color:#000
+}
+
+.container {
+  background: #fff;
+  max-width: 620px;
+  margin: 4% auto;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1.6;
+  box-shadow:0 3px 10px rgba(0,0,0,0.1);
+  border-radius:3px
+}
+
+.container h1,
+.container h2 {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: #000;
+}
+
+.container h2 {
+  margin-top: 30px;
+}
+
+/* Download Counter Box */
+#btnx{cursor:pointer;padding:10px 20px;border:0;border-radius:3px;background:#fff;color:#5480fb;float:right;text-transform:capitalize;font-weight:500;transition:all 0.5s}#btnx:hover,#downloadx:hover{background:#1f51db;color:#fff;outline:none}.batas-downx{display:block;margin:0 auto;border-radius:4px}.dalam-downx{background:#5480fb;color:#fff;padding:20px;display:block;border-top-right-radius:3px;border-top-left-radius:3px}.file-info{color:#fff;display:inline-block;font-size:1.2em;line-height:38px;text-align:left}.catatan-downx{padding:20px;background:#f7f7f7;border-bottom-right-radius:3px;border-bottom-left-radius:3px;color:#555;font-size:14px}#downloadx{float:right}#downloadx{padding:10px 20px;border-radius:3px;background:#fff;color:#5480fb;float:right;text-align:center;font-size:14px;text-transform:capitalize}.bungkus-info span{display:inline-block;line-height:38px;float:right}.file-deskripsi{display:block}.file-deskripsi span{margin-right:3px}
+@media screen and (max-width:640px){.batas-downx{float:none;width:100%}}
+@media screen and (max-width:320px){.file-info{display:block;text-align:center}#btnx, #downloadx{width:100%;margin-bottom:10px}.bungkus-info span{float:none;width:100%;text-align:center}.file-deskripsi{text-align:center}}
